@@ -3,13 +3,13 @@ import 'package:altvideos/themes/typography.dart';
 import 'package:flutter/material.dart';
 
 ThemeData lightTheme = ThemeData(
-  colorScheme: lightColors,
-  useMaterial3: true,
-  appBarTheme: appBarTheme,
-  textTheme: appTextTheme,
-  cardColor: AppColors().tertieryLight,
-  canvasColor: AppColors().secondaryLight,
-);
+    colorScheme: lightColors,
+    useMaterial3: true,
+    appBarTheme: appBarTheme,
+    textTheme: appTextTheme,
+    cardColor: AppColors().tertieryLight,
+    canvasColor: AppColors().secondaryLight,
+    drawerTheme: drawerTheme);
 
 AppBarTheme appBarTheme = AppBarTheme(
   centerTitle: true,
@@ -18,4 +18,8 @@ AppBarTheme appBarTheme = AppBarTheme(
   backgroundColor: AppColors().primaryLight,
   shadowColor: AppColors().primaryLight,
   toolbarHeight: 64,
+);
+
+DrawerThemeData drawerTheme = DrawerThemeData(
+  backgroundColor: AppColors().secondaryLight,
 );

@@ -1,4 +1,4 @@
-import 'package:altvideos/pages/home_page.dart';
+import 'package:altvideos/pages/home_wrapper.dart';
 import 'package:altvideos/themes/light.dart';
 import 'package:flutter/material.dart';
 
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: lightTheme,
       // start from here
-      home: const HomePage(),
+      home: const HomeWrapper(),
     );
   }
 }
