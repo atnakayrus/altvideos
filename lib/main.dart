@@ -1,5 +1,5 @@
-import 'package:altvideos/pages/home_wrapper.dart';
-import 'package:altvideos/themes/light.dart';
+import 'package:altvideos/views/home_wrapper/home_wrapper.dart';
+import 'package:altvideos/constants/themes/light.dart';
 import 'package:flutter/material.dart';
 
 void main() {

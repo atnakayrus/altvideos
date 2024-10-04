@@ -1,5 +1,5 @@
-import 'package:altvideos/themes/colors.dart';
-import 'package:altvideos/themes/typography.dart';
+import 'package:altvideos/constants/colors.dart';
+import 'package:altvideos/constants/themes/typography.dart';
 import 'package:flutter/material.dart';
 
 ThemeData lightTheme = ThemeData(

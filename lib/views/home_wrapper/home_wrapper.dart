@@ -1,7 +1,7 @@
-import 'package:altvideos/pages/favourites_page.dart';
-import 'package:altvideos/pages/files_page.dart';
-import 'package:altvideos/pages/home_page.dart';
-import 'package:altvideos/widgets/home_drawer.dart';
+import 'package:altvideos/views/home_wrapper/favourites_page/favourites_page.dart';
+import 'package:altvideos/views/home_wrapper/files_page/files_page.dart';
+import 'package:altvideos/views/home_wrapper/home_page/home_page.dart';
+import 'package:altvideos/views/home_wrapper/widgets/home_drawer.dart';
 import 'package:flutter/material.dart';
 
 class HomeWrapper extends StatefulWidget {
