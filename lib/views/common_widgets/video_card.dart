@@ -6,8 +6,9 @@ class VideoCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 80,
-      width: 120,
+      margin: const EdgeInsets.only(left: 10),
+      height: 200,
+      width: 300,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(5),
         color: Theme.of(context).colorScheme.primary,

@@ -18,7 +18,7 @@ ColorScheme lightColors = ColorScheme.light(
     inversePrimary: AppColors().appBlack,
     secondary: AppColors().secondaryLight,
     tertiary: AppColors().tertieryLight,
-    background: AppColors().backgroudLight,
+    surface: AppColors().backgroudLight,
     onPrimary: AppColors().appWhite,
-    onBackground: AppColors().appBlack,
+    onSurface: AppColors().appBlack,
     shadow: AppColors().primaryLight);

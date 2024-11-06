@@ -10,6 +10,6 @@ class FilesPage extends StatefulWidget {
 class _FilesPageState extends State<FilesPage> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return const Scaffold();
   }
 }

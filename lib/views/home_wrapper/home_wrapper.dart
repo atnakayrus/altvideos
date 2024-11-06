@@ -33,8 +33,8 @@ class _HomeWrapperState extends State<HomeWrapper> {
       bottomNavigationBar: BottomNavigationBar(
         backgroundColor: Theme.of(context).colorScheme.primary,
         currentIndex: page,
-        selectedItemColor: Theme.of(context).colorScheme.background,
-        unselectedItemColor: Theme.of(context).colorScheme.onBackground,
+        selectedItemColor: Theme.of(context).colorScheme.surface,
+        unselectedItemColor: Theme.of(context).colorScheme.onSurface,
         items: const [
           BottomNavigationBarItem(
             icon: Icon(Icons.home_outlined),
@@ -64,7 +64,7 @@ class _HomeWrapperState extends State<HomeWrapper> {
         child: Icon(
           Icons.play_arrow_rounded,
           size: 32,
-          color: Theme.of(context).colorScheme.background,
+          color: Theme.of(context).colorScheme.surface,
         ),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,
